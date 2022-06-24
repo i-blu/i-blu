@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); 
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+    background-color: rgb(213 225 239);
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    font-family: outfit, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 7px;
+}
+
+.container h3 {
+    width: 380px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    bottom: 22%;
+}
+
+.container p {
+    width: 350px;
+    font-family: outfit, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: .7;
+    position: absolute;
+    bottom: 7%;
+    left: 25px;
+    text-align: center;
+}
+
+.container img {
+    width: 90%;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        width: 85%;
+        height: 75%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 15px;
+}
+
+    .container    img {
+        width: 90%;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        border-radius: 10px;
+    }
+
+    .container h3 {
+        font-size: 23px;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        bottom: 19%;
+        left: 3px;
+    }
+
+    .container p {
+        width: 268px;
+        font-family: outfit, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 0.5;
+        position: absolute;
+        bottom: 6%;
+        text-align: center;
+        left: 26px;
+    }
+}
